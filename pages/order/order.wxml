@@ -1,0 +1,14 @@
+<!--pages/order/order.wxml-->
+<view class='full_page'>
+  <block wx:for='{{order_list}}'>
+    <view class='order_item'>
+      <image class='item_img' src='{{item.src}}'></image>
+      <view class='content'>
+        <view class='title'>{{item.title}}</view>
+        <view class='detail'>{{item.detail}}</view>
+      </view>
+      <view class='price'>{{item.price}}</view>
+    </view>
+  </block>
+</view>
+

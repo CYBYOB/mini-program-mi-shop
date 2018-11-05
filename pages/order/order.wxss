@@ -1,0 +1,23 @@
+/* pages/order/order.wxss */
+.order_item {
+  display: flex;
+}
+.order_item .item_img {
+  width: 150rpx;
+  height: 150rpx;
+}
+.order_item .content {
+  width: 450rpx;
+  height: 150rpx;
+}
+.content .title {
+  display: inline-block;
+  font-size: 40rpx;
+}
+.content .detail {
+  font-size: 25rpx;
+  color: rgb(155, 151, 151);
+}
+.order_item .price {
+  color: rgb(155, 151, 151);
+}
