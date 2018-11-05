@@ -1,0 +1,53 @@
+/* pages/good/good.wxss */
+/* 公共的样式 */
+.small_title {
+  /* font-size: 35rpx; */
+  color: #e2e0e0;
+  margin: 20rpx;
+}
+.title {
+  line-height: 91rpx;
+}
+.right_arrow {
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  right: 0;
+}
+.buy image {
+  width: 65rpx;
+  height: 65rpx;
+  padding: 0 30rpx;
+}
+.buy .title {
+  font-size: 28rpx;
+  line-height: 55rpx;
+  text-align: center;
+}
+
+
+.good .good_image {
+  width: 450rpx;
+  height: 450rpx;
+  margin: 0 150rpx;
+}
+.good .installment,.select,.address {
+  position: relative;
+  display: flex;
+}
+
+.buy {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+.buy .like,.cart {
+  margin: 0 15rpx;
+}
+.buy .add_cart {
+  width: 444rpx;
+  color: #eee;
+  text-align: center;
+  line-height: 120rpx;
+  background-color: #f44a1f;
+}

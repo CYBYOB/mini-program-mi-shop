@@ -1,0 +1,44 @@
+<!--pages/good/good.wxml-->
+<view class='full_page'>
+  <view class='good'>
+    <image class='good_image' src='{{src}}'></image>
+    <view class='installment' bindtap='f_installment'>
+      <view class='small_title'>分期</view>
+      <view class='title'>小米分期/花呗分期</view>
+      <image class='right_arrow' src='../../images/right_arrow.jpg'></image>
+    </view>
+  </view>
+
+  <!--设置间隔 -->
+  <view class='gap'></view>
+
+  <!-- 选择 配置 地址 -->
+  <view class='choose'>
+    <view class='select'>
+      <view class='small_title'>已选</view>
+      <view class='title'>{{name}} 8GB+128GB {{price}}</view>
+      <image class='right_arrow' src='../../images/right_arrow.jpg'></image>
+    </view>
+    <view class='address'>
+      <view class='small_title'>送至</view>
+      <view class='title'>西安市 长安区 有现货</view>
+      <image class='right_arrow' src='../../images/right_arrow.jpg'></image>
+    </view>
+  </view>
+
+  <!--设置间隔 -->
+  <view class='gap'></view>
+
+  <!-- 底部的 购物车 -->
+  <view class='buy'>
+    <view class='like' bindtap='f_like'>
+      <image src='../../images/like.jpg'></image>
+      <view class='title'>喜欢</view>
+    </view>
+    <view class='cart' bindtap='f_cart_page'>
+      <image src='../../images/cart.jpg'></image>
+      <view class='title'>购物车</view>
+    </view>
+    <view class='add_cart' bindtap='f_add_cart'>加入购物车</view>
+  </view>
+</view>
