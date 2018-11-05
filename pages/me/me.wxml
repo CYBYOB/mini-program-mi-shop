@@ -1,0 +1,40 @@
+<!--pages/me/me.wxml-->
+<view class='full_page'>
+  <!-- 个人信息 开始 -->
+  <view class='my_info'>
+    <image class='avatar_url' src='{{avatar_url}}'></image>
+    <view class='nick_name'>{{nick_name}}</view>
+    <image class='dialog' src='/images/dialog.jpg'></image>
+  </view>
+  <!-- 个人信息 结束 -->
+
+  <!-- 订单相关 开始 -->
+  <view class='my_order'>
+    <view class='order' bindtap='f_order'>
+      <view class='my'>我的订单</view>
+      <view class='all'>全部订单</view>
+      <image src='../../images/right_arrow.jpg'></image>
+    </view>
+    <view class='order_type'>
+      <block wx:for='{{order_type}}'>
+        <view class='list_item'>
+          <image src='{{item.src}}'></image>
+          <view class='title'>{{item.title}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <!-- 订单相关 结束 -->
+
+  <!-- 小间隔 -->
+  <view class='gap'></view>
+  <view class='my_list'>
+    <block wx:for='{{my_list}}'>
+      <view class='list_item'>
+        <image src='{{item.src}}'></image>
+        <view class='title'>{{item.title}}</view>
+        <image class='right_arrow' src='../../images/right_arrow.jpg'></image>
+      </view>
+    </block>
+  </view>
+</view>

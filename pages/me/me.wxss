@@ -1,0 +1,81 @@
+/* pages/me/me.wxss */
+/* 个人信息样式 */
+.my_info {
+  display: flex;
+  position: relative;
+  height: 150rpx;
+  background-color: #f37d0f;
+}
+.my_info .avatar_url {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  margin: 25rpx;
+}
+.my_info .nick_name {
+  color: #fff;
+  margin-top: 30rpx;
+}
+.my_info .dialog {
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  top: 20rpx;
+  right: 20rpx;
+}
+/* 个人订单样式 */
+
+.my_order .order{
+  display: flex;
+  line-height: 80rpx;
+  border-bottom: 1px #d3d3d3 solid;
+}
+.my_order .order .all{
+  font-size: 28rpx;
+  color: #968d8d;
+  margin-left: 408rpx; 
+}
+.order image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.order_type{
+  display: flex;
+  border-bottom: 1px #d3d3d3 solid;
+}
+.order_type .list_item{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 25rpx;
+}
+.order_type .list_item image{
+  width: 100rpx;
+  height: 100rpx;
+  padding-left: 22rpx;
+}
+.order_type .list_item .title{
+  text-align: center;
+}
+
+
+.my_list{
+  border-top: 1px #d3d3d3 solid;
+}
+.my_list .list_item{
+  position: relative;
+  display: flex;
+  border-bottom: 1px #d3d3d3 solid;
+}
+.my_list .list_item image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 10rpx;
+}
+.my_list .list_item .title{
+  line-height: 80rpx;
+}
+.my_list .list_item .right_arrow{
+  position: absolute;
+  right: 20rpx;
+}
