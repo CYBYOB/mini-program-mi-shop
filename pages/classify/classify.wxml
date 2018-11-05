@@ -1,0 +1,33 @@
+<!--pages/classify/classify.wxml-->
+<view class='full_page'>
+  <!-- 顶部搜索栏相关 开始 -->
+  <!-- 顶部搜索栏相关 结束 -->
+
+  <!-- 内容主体 开始 -->
+  <view class='content'>
+    <view class='left'>
+      <scroll-view scroll-y='true' scroll-x='true'> 
+        <block wx:for='{{scroll_list}}'>
+          <view class='list_item' id='{{item.id}}' bindtap='f_scroll'>
+            <view class='title' style="color:{{item.active==true? 'red':'none'}}">{{item.title}}</view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+    <view class='right'>
+      <view class='top_banner'>
+        <image id='good_1' src='../../images/good/top_banner.jpg' bindtap='f_good_new'></image>
+      </view>
+      <view class='good_list'>
+        <block wx:for='{{good_list}}'>
+          <view class='list_item' id='{{item.id}}' bindtap='f_good_new'>
+            <image src='{{item.src}}'></image>
+            <view class='title'>{{item.title}}</view>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <!-- 内容主体 结束 -->
+
+</view>

@@ -1,0 +1,44 @@
+/* pages/classify/classify.wxss */
+.content{
+  display: flex;
+  border-top: 1px #d3d3d3 solid;
+}
+.content .left{
+  width: 250rpx;
+  border-right: 1px #d3d3d3 solid;
+  background-color: #fafafa;
+}
+.left .list_item{
+  margin: 20rpx 0;
+}
+.list_item .title{
+  font-size: 50rpx;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* 右边内容 */
+.content .right{
+  width: 500rpx;
+}
+.right .top_banner image{
+  width: 460rpx;
+  height: 150rpx;
+  margin: 20rpx;
+}
+.good_list .list_item{
+  display: inline-block;
+  width: 160rpx;
+  height: 160rpx;
+  /* border: 1px red solid; */
+}
+.list_item image{
+  width: 80rpx;
+  height: 80rpx;
+  padding: 0 50rpx;
+}
+.right .list_item .title{
+  font-size: 25rpx;
+  text-align: center;
+  padding-left: 19rpx;
+}
