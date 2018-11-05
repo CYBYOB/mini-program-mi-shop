@@ -1,0 +1,61 @@
+/* pages/cart/cart.wxss */
+.top_nav {
+  display: flex;
+  border-bottom: 1rpx #d3d3d3 solid;
+}
+.top_nav .edit {
+  margin: 20rpx;
+  margin-left: 550rpx;
+  line-height: 30rpx;
+}
+.top_nav  image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+/* 购物车商品 列表样式 */
+.cart_list_item {
+  display: flex;
+  border-bottom: 1rpx #d3d3d3 solid;
+}
+.cart_list_item .select_icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 90rpx 0rpx;
+}
+.cart_list_item .good_img {
+  width: 300rpx;
+  height: 300rpx;
+}
+.cart_list_item .content {
+  margin-top: 60rpx;
+}
+.cart_list_item .price {
+  color: #ff6b00;
+}
+
+.bottom_select {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  line-height: 100rpx;
+}
+.bottom_select .all_select,.payment,.delete {
+  width: 250rpx;
+  text-align: center;
+}
+.all_select {
+  display: flex;
+}
+.all_select image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.bottom_select .payment {
+  color: #fff;
+  background-color: #ff6b00;
+}
+.bottom_select .delete {
+  color: #fff;
+  background-color: #e53935;
+}

@@ -1,0 +1,31 @@
+<!--pages/cart/cart.wxml-->
+<view class='full_page'>
+  <view class='top_nav'>
+    <view class='edit' bindtap='f_edit'>编辑</view>
+    <image class='dialog' src='../../images/dialog.jpg'></image>
+  </view>
+
+  <!-- 购物车 商品列表 -->
+  <view hidden='{{cart_list_hidden}}'>
+  <block  wx:for='{{cart_list}}'>
+    <view class='cart_list_item' bindtap='f_select_item'>
+      <!-- 默认未选中 -->
+      <image class='select_icon' src='{{select_icon}}'></image>
+      <image class='good_img' src='{{item.src}}'></image>
+      <view class='content'>
+        <view class='title'>{{item.title}}</view>
+        <view class='price'>{{item.price}}</view>
+      </view>
+    </view>
+  </block>
+  </view>
+
+  <view class='bottom_select' hidden='{{!edit_click}}'>
+    <view class='all_select'>
+      <image src='{{select_icon}}'></image>
+      <view class='title'>全选</view>
+    </view>
+    <view class='payment'>付款</view>
+    <view class='delete'>删除</view>
+  </view>
+</view>
