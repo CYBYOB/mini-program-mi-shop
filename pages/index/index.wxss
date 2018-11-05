@@ -1,0 +1,58 @@
+/**index.wxss**/
+.top_banner swiper-item image{
+  width: 750rpx;
+  height: 300rpx;
+}
+
+.sub_nav{
+  /* display: flex; */
+}
+.sub_nav .list_item{
+  display: inline-block;
+  width: 130rpx;
+  height: 130rpx;
+  margin: 27rpx;
+  border: 1px red solid;
+}
+.list_item image{
+  width: 80rpx;
+  height: 80rpx;
+  padding: 0 26rpx;
+}
+.list_item .title{
+  font-size: 25rpx;
+  text-align: center;
+}
+
+.new{
+  display: flex;
+  padding: 25rpx;
+  border-top: 1px #d3d3d3 solid;
+  border-bottom: 1px #d3d3d3 solid;
+}
+.new .head{
+  color: #f65f39;
+  font-size: 40rpx;
+}
+.new .title{
+  right: 25rpx;
+  font-size: 30rpx;
+  line-height: 53rpx;
+  margin-left: 60rpx;
+}
+
+.hot_good {
+  display: flex;
+  margin-top: 5rpx;
+}
+.hot_good .left,.right{
+  flex: 1;
+}
+.left image{
+  width: 370rpx;
+  height: 400rpx;
+}
+.right image{
+  width: 370rpx;
+  height: 195rpx;
+}

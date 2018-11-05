@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class='full_page'>
+  <!-- 顶部轮播图 开始 -->
+  <view class='top_banner'>
+    <swiper indicator-dots='true' autoplay='true' interval='1000' duration='1000' circular='true'>
+      <block wx:for='{{top_banner}}'>
+        <swiper-item>
+          <image src='{{item.src}}' id='{{item.id}}' bindtap='f_good_new'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 顶部轮播图 结束 -->
+
+  <!-- 中间 子导航栏目 开始 -->
+  <view class='sub_nav'>
+    <block wx:for='{{sub_nav}}'>
+      <view class='list_item'>
+        <image src='{{item.src}}'></image>
+        <view class='title'>{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+  <!-- 中间 子导航栏目 结束 -->
+
+  <!-- 早报 开始 -->
+  <view class='new'>
+    <view class='head'>商城早报|</view>
+    <view class='title'>小米MIX3，开创性的滑盖全面屏...</view>
+  </view>
+  <!-- 早报 结束 -->
+
+  <!-- 一些产品的推荐卡片 开始 -->
+  <view class='hot_good'>
+    <view class='left' id='hot_3'>
+      <image src='../../images/hot_good/1.jpg'></image>
+    </view>
+    <view class='right'>
+      <block wx:for='{{hot_good}}'>
+        <image src='{{item.src}}'></image>
+      </block>
+    </view>
+  </view>
+  <!-- 一些产品的推荐卡片 结束 -->
+</view>
