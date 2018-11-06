@@ -3,13 +3,14 @@
 
 
 效果截图：
+
 1、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/1.png)
-2、
-3、
-4、
-5、
-6、
-7、
+2、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/2.png)
+3、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/3.png)
+4、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/4.png)
+5、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/5.png)
+6、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/6.png)
+7、![](https://github.com/CYBYOB/mini-program-mi-shop/blob/master/page%20screenshots/7.png)
 
 
 完成的功能：
