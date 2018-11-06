@@ -1,0 +1,11 @@
+/**app.wxss**/
+/* 公共样式 */
+/* 版心，局长对齐 */
+.page {
+  margin: 25rpx;
+}
+/* 小间隔 */
+.gap {
+  height: 15rpx;
+  background-color: #f5f5f5; 
+}
