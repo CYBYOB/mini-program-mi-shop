@@ -56,7 +56,7 @@ Page({
       },
       // 搜索关键字 作为参数传入请求当中
       data: { 
-        user_id: '1' 
+        user_id: app.globalData.user_id 
         // user_id: app.globalData.user_id
         },
       method: 'POST',
