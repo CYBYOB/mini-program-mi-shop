@@ -100,16 +100,16 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    // console.log("show!!"+this.data.good_id);
+    console.log("show!!"+this.data.good_id);
     var that = this
     wx.request({
-      url: 'https://www.dianyingzy.xyz/mini/shop/cart.php',
+      url: 'https://www.dianyingzy.xyz/mini/shop/good.php',
       // 搭配 data 用的
       header: {
         'content-type': 'application/x-www-form-urlencoded;charset=utf-8',
       },
       // 搜索关键字 作为参数传入请求当中
-      data: { user_id: app.globalData.user_id },
+      data: { good_id: this.data.good_id },
       method: 'POST',
       success(res) {
         console.log(res)
